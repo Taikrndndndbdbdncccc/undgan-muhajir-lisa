@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background: url('card-background.png') no-repeat center center;
+            background-size: cover;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 400px;
+            color: #fff;
+        }
+
+        .details {
+            font-size: 18px;
+        }
+
+        .buttons button {
+            margin: 10px;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+
+        .buttons button:first-child {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .buttons button:last-child {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .buttons button:hover {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1>Undangan Pernikahan</h1>
+            <p class="details">Kami mengundang Anda untuk menghadiri pernikahan kami</p>
+            <p class="details"><strong>Nama Pengantin:</strong> A & B</p>
+            <p class="details"><strong>Tanggal:</strong> 1 Januari 2025</p>
+            <p class="details"><strong>Lokasi:</strong> Jakarta, Indonesia</p>
+            <p class="footer">Kami menantikan kehadiran Anda di hari istimewa kami!</p>
+            <div class="buttons">
+                <button onclick="window.location.href='https://wa.me/6285372736144?text=Saya%20telah%20hadir%20di%20acara%20pernikahan'">Hadir</button>
+                <button onclick="window.location.href='https://wa.me/6285372736144?text=Maaf,%20saya%20tidak%20dapat%20hadir%20di%20acara%20pernikahan'">Halangan</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
